@@ -1,1 +1,75 @@
-index
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 慕云游商城--首页</title>
+</head>
+
+<body>
+    <div id="index-page" class="index-layout">
+        <!-- header -->
+        <header class="header-layout">
+            {{include './components/header/header.art'}}
+        </header>
+        <!-- carasoul -->
+        <div id="index-slider" class="slider-layout">
+            slides
+        </div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <div id="index-slider" class="slider-layout">slides</div>
+        <!-- nav -->
+        <nav id="omdex-nav" class="nav-layout">
+            nav
+        </nav>
+        <!-- selection discount -->
+        <div id="index-product" class="product-layout">
+            selection discount
+        </div>
+        <!-- tab -->
+        <div class="tabbar-layout">tab bar</div>
+        <div class="backtop-layout">backtotop</div>
+    </div>
+</body>
+
+</html>
