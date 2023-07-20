@@ -1,6 +1,7 @@
 .index-layout{
     overflow-y:auto;
     height:100%;
+    padding-bottom: 48px;
 }
 
 .header-layout{
@@ -12,10 +13,22 @@
     height:54px;
 }
 
+
+.header-layout .searchbox{
+    /* 335px */
+    width: 89.3333333%;
+}
+
 .slider-layout,
 .nav-layout,
 .product-layout{
     background-color:#fff
+}
+
+.slider-layout .loading,
+.nav-layout .loading,
+.product-layout .loading{
+    padding: 60px 0;
 }
 
 .nav-layout{

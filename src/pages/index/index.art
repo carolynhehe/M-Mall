@@ -12,63 +12,28 @@
     <div id="index-page" class="index-layout">
         <!-- header -->
         <header class="header-layout">
-            {{include './components/header/header.art'}}
+            {{include'./components/header/header.art'}}
         </header>
         <!-- carasoul -->
         <div id="index-slider" class="slider-layout">
-            slides
+            {{include '../../components/loading/loading.art'}}
         </div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
-        <div id="index-slider" class="slider-layout">slides</div>
         <!-- nav -->
-        <nav id="omdex-nav" class="nav-layout">
-            nav
+        <nav id="index-nav" class="nav-layout">
+            {{include '../../components/loading/loading.art'}}
         </nav>
         <!-- selection discount -->
         <div id="index-product" class="product-layout">
-            selection discount
+            {{include './components/product/product.art'}}
         </div>
+        
         <!-- tab -->
-        <div class="tabbar-layout">tab bar</div>
-        <div class="backtop-layout">backtotop</div>
+        <div class="tabbar-layout">
+            <%include ('../../components/tabbar/tabbar.art',{active:'index'})%>
+        </div>
+        <div class="backtop-layout">
+            {{include '../../components/backtop/backtop.art'}}
+        </div>
     </div>
 </body>
 
